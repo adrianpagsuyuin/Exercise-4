@@ -1,5 +1,5 @@
-#Task #1: Arithmetic Operations for int, float, and complex
-#Integer Operations (MDAS + Modulus + Exponent)
+#1 Create a Python program to perform arithmetic Operations  (Addition, Subtraction, Division, Multiplication, Modulus, Exponent) using two variable numbers for int, float and complex
+#Integer Operations
 num1_int = 15
 num2_int = 4
 print("--- Integer Operations ---")
@@ -25,14 +25,14 @@ num2_complex = 2 + 3j
 print("\n--- Complex Operations ---")
 print(num1_complex + num2_complex)
 
-#Task #2: Integer literals with and without underscores
+#2 Write a program that creates two variables, num1 and num2. Both num1 and num2 should be assigned the integer literal 25000000, one written with underscores and one without. Print num1 and num2 on two separate lines.
 num1 = 25000000
 num2 = 25_000_000
 print("\n--- Task #2: Large Numbers ---")
 print(num1)
 print(num2)
 
-#Task #3: Check variable types using type()
+#3 Creating int,float and complex variable then check the type using the Python Code
 print("\n--- Task #3: Type Checking ---")
 print(type(num1_int))
 print(type(num1_float))
